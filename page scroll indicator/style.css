@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    padding: 20px;
+}
+.top{
+    padding: 0px;
+}
+.scroll-indicator{
+    height: 5px;
+    width: calc(100% - 6em);
+    top: 10px;
+    left: 3em;
+    border-radius: 3px;
+    position: fixed;
+}
+.scroll-indicator .progress{
+    width: 0;
+    height: 100%;
+    width: 0;
+    border-radius: 3px;
+    background-color: red;
+    transition: width 0.1s;
+}
